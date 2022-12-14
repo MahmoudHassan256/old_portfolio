@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import { Cursor, Typewriter, useTypewriter } from 'react-simple-typewriter'
@@ -18,7 +19,7 @@ function Hero({ }: Props) {
   return (
     <div className='h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden'>
       <BackgroundShapes />
-      <img className='relative rounded-full h-32 w-32 mx-auto object-cover'
+      <Image className='relative rounded-full h-32 w-32 mx-auto object-cover'
         src="hero-img.jpg" alt="hero-img" />
       <div className='z-20'>
         <h2 className='tracking-[15px] uppercase pb-2'>future developer</h2>
