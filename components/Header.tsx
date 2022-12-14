@@ -8,7 +8,6 @@ function Header({ }: Props) {
   return (
     <header className='sticky top-0 flex p-5 items-start justify-between max-w-7xl mx-auto z-20
     lg:items-center'>
-      {/* Social icons */}
       <motion.div
         initial={{x: -500,opacity: 0,scale: 0.5}}
         animate={{x: 0,opacity: 1,scale: 1}}
@@ -30,7 +29,6 @@ function Header({ }: Props) {
           bgColor='transparent'
         />
       </motion.div>
-      {/* Get in Touch */}
       <motion.div
         initial={{x: 500,opacity: 0,scale: 0.5}}
         animate={{x: 0,opacity: 1,scale: 1}}

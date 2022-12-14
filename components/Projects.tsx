@@ -13,7 +13,6 @@ function Projects({ }: Props) {
       transition={{ duration: 1.5 }}>
       <h3 className='absolute top-24 uppercase tracking-[10px] text-black text-2xl'>
         Projects</h3>
-      {/* projects */}
       <div className='relative w-full flex overflow-x-scroll  overflow-y-hidden snap-x snap-mandatory z-20 scrollbar scrollbar-track-blue-500 scrollbar-thumb-blue-900 scrollbar-corner-black '>
         {projectsArray.map((project, key) => (
           <ProjectCard key={key} project={project} />

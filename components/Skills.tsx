@@ -14,7 +14,6 @@ function Skills({ }: Props) {
       transition={{ duration: 1.5 }}>
       <h3 className='absolute top-24 uppercase tracking-[10px] text-black text-2xl'
       >Skills</h3>
-      {/* grid */}
       <div className='grid grid-cols-4 gap-5'>
         {skillsArray.map((skill,key)=>(
           <SkillCard key={key} skill={skill}/>

@@ -14,7 +14,6 @@ function Experiences({ }: Props) {
       <h3 className='absolute top-24 uppercase tracking-[10px] text-black text-2xl'
       >Experiences</h3>
       <div className='flex overflow-x-scroll w-full space-x-5 p-10 snap-x snap-mandatory scrollbar scrollbar-track-blue-500 scrollbar-thumb-blue-900'>
-        {/* experience card */}
         {experiencesArray.map((experience,key)=>(
           <ExperienceCard key={key} experience={experience}/>
         ))}
